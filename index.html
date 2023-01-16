@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="options">
+        <center><h1><span style="color:#cf7411">S</span>TOCK<span style="color:#cf7411">P</span>REDICTOR </h1></center>
+        <button class="btn" id="loginh">LOGIN</button>
+        <button class="btn" id="signuph">SIGNUP</button>
+    </div>
+    <script>
+        let login=document.getElementById("loginh");
+        let signup=document.getElementById("signuph");
+        login.addEventListener("click",function(){
+            window.location.href="login.html";
+        });
+        signup.addEventListener("click",function(){
+            window.location.href="signup.html";
+        })
+    </script>
+</body>
+</html>

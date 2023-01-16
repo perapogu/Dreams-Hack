@@ -1,0 +1,118 @@
+*{
+ margin:0;
+ padding:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='768' preserveAspectRatio='none' viewBox='0 0 1440 768'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1633%26quot%3b)' fill='none'%3e%3crect width='1440' height='768' x='0' y='0' fill='url(%23SvgjsLinearGradient1634)'%3e%3c/rect%3e%3cpath d='M0 103.69L10 85.14L20 169.78L30 164.42L40 194.18L50 207.66L60 171.49L70 94.15L80 76.3L90 153.63L100 121.38L110 39.24L120 121.29L130 176.3L140 256.19L150 289.93L160 248.18L170 333.19L180 387.62L190 394.54L200 475.63L210 489.85L220 492.09L230 584.66L240 650.34L250 680.36L260 727.39L270 739.02L280 693.92L290 702L300 705.51L310 642.49L320 560.1L330 575.07L340 582.22L350 503.56L360 504.77L370 418.18L380 357.06L390 452.53L400 474.91L410 545.53L420 467.37L430 454.55L440 453.41L450 495.63L460 445.56L470 455.83L480 399.27L490 426.1L500 357.87L510 299.82L520 320.92L530 331.77L540 355.98L550 410.31L560 326.5L570 269.27L580 218.94L590 217.46L600 269.51L610 212.55L620 226.04L630 291L640 269.18L650 192.31L660 105.98L670 148.79L680 233.79L690 288.98L700 335.71L710 267.05L720 245.77L730 183.44L740 194.03L750 168.43L760 109.46L770 106.54L780 135.4L790 178.24L800 240.67L810 267.8L820 357.14L830 289.48L840 276.08L850 200.42L860 109.09L870 41.75L880 42.22L890 26.17L900 48.88L910 40.48L920 7.77L930 92.99L940 66.66L950 161.07L960 183.45L970 133.92L980 180.04L990 162.45L1000 171.49L1010 217.32L1020 154.08L1030 106.41L1040 124.02L1050 89L1060 88.9L1070 32.62L1080 9.04L1090 24.68L1100 8.27L1110 49.18L1120 127.27L1130 113.06L1140 155.58L1150 128.38L1160 180.69L1170 187.64L1180 95.93L1190 67.88L1200 43.89L1210 79.19L1220 24.8L1230 32.93L1240 9.52L1250 101.98L1260 69.37L1270 80.21L1280 74.85L1290 158.88L1300 152.17L1310 163.21L1320 225.08L1330 259.57L1340 231.23L1350 231.26L1360 313.68L1370 275.99L1380 273.64L1390 195L1400 197.58L1410 257.02L1420 197.36L1430 107.42L1440 53.01' stroke='rgba(205%2c 111%2c 9%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 103.69L10 85.14L20 169.78L30 164.42L40 194.18L50 207.66L60 171.49L70 94.15L80 76.3L90 153.63L100 121.38L110 39.24L120 121.29L130 176.3L140 256.19L150 289.93L160 248.18L170 333.19L180 387.62L190 394.54L200 475.63L210 489.85L220 492.09L230 584.66L240 650.34L250 680.36L260 727.39L270 739.02L280 693.92L290 702L300 705.51L310 642.49L320 560.1L330 575.07L340 582.22L350 503.56L360 504.77L370 418.18L380 357.06L390 452.53L400 474.91L410 545.53L420 467.37L430 454.55L440 453.41L450 495.63L460 445.56L470 455.83L480 399.27L490 426.1L500 357.87L510 299.82L520 320.92L530 331.77L540 355.98L550 410.31L560 326.5L570 269.27L580 218.94L590 217.46L600 269.51L610 212.55L620 226.04L630 291L640 269.18L650 192.31L660 105.98L670 148.79L680 233.79L690 288.98L700 335.71L710 267.05L720 245.77L730 183.44L740 194.03L750 168.43L760 109.46L770 106.54L780 135.4L790 178.24L800 240.67L810 267.8L820 357.14L830 289.48L840 276.08L850 200.42L860 109.09L870 41.75L880 42.22L890 26.17L900 48.88L910 40.48L920 7.77L930 92.99L940 66.66L950 161.07L960 183.45L970 133.92L980 180.04L990 162.45L1000 171.49L1010 217.32L1020 154.08L1030 106.41L1040 124.02L1050 89L1060 88.9L1070 32.62L1080 9.04L1090 24.68L1100 8.27L1110 49.18L1120 127.27L1130 113.06L1140 155.58L1150 128.38L1160 180.69L1170 187.64L1180 95.93L1190 67.88L1200 43.89L1210 79.19L1220 24.8L1230 32.93L1240 9.52L1250 101.98L1260 69.37L1270 80.21L1280 74.85L1290 158.88L1300 152.17L1310 163.21L1320 225.08L1330 259.57L1340 231.23L1350 231.26L1360 313.68L1370 275.99L1380 273.64L1390 195L1400 197.58L1410 257.02L1420 197.36L1430 107.42L1440 53.01L1440 768L0 768z' fill='url(%23SvgjsLinearGradient1635)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1633'%3e%3crect width='1440' height='768' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.67%25' y1='-21.87%25' x2='88.33%25' y2='121.87%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1634'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='SvgjsLinearGradient1635'%3e%3cstop stop-opacity='0.65' stop-color='rgba(205%2c 111%2c 9%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='%23fbcb98' offset='0.8'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.options{
+    position:absolute;
+    top:30%;
+    left: 34%;
+    width:35%;
+    height: 40%;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:1rem;
+    background-color: white;
+    border-radius: 1rem;;
+}
+.btn{
+    width:80%;
+    height: 20%;
+    font-size: 1.5rem;
+    background-color: #0c2640;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.btn:hover{
+    background-color:#cf7411;
+    transition: background-color 1s;
+}
+/*form holder*/
+.formHolder{
+    padding:2rem 3rem;
+    font-size: 1.7rem;
+    position:absolute;
+    top:10%;
+    left:25%;
+    width:45%;
+    height:auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius:2rem;
+    box-shadow:#cf7411 5px 5px, #0c2640 10px 10px;
+}
+.itemMainHolder{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.itemHolder{
+    /* margin:0rem 1.6rem; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border:1px solid black; */
+    width:90%; 
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.4rem;
+}
+.itemHolder>input{
+    border:2px solid #cf7411;
+    width:25rem;
+    height: 2rem;
+    font-size:1rem;
+    padding:0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#login-btn{
+    text-decoration: none;
+    text-align: center;
+    width:40%;
+    height:3rem;
+    padding-top:1rem;    
+    font-size: 1.5rem;
+    background-color: #0c2640;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#login-btn:hover{
+    background-color:#cf7411;
+    transition: background-color 1s;
+}
+#signup-btn{
+    width:40%;
+    height:3rem;    
+    font-size: 1.5rem;
+    background-color: #0c2640;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   
+}
+#signup-btn{
+    background-color:#cf7411;
+    transition: background-color 1s;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakathon</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+
+<body>
+    <canvas id="chart_01" width="800" height="400"></canvas>
+    <canvas id="chart_02" width="800" height="400"></canvas>
+    <canvas id="chart_03" width="800" height="400"></canvas>
+    <canvas id="chart_04" width="800" height="400"></canvas>
+    <canvas id="chart_05" width="800" height="400"></canvas>
+
+    <script>
+        chartIt_01();
+        async function chartIt_01() {
+            const data = await getData_01();
+            const ctx = document.getElementById('chart_01');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.xs,
+                    datasets: [{
+                        label: 'ASKOKLEY.NS',
+                        data: data.ys,
+                        fill: false,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                    }]
+                },
+            });
+        }
+        async function getData_01() {
+            const xs = [];
+            const ys= [];
+            const response = await fetch('ASHOKLEY.NS.csv');
+            const data = await response.text();
+
+            const table = data.split('\n').slice(1);
+            table.forEach(row => {
+                const columns = row.split(',');
+                const date = columns[0];
+                xs.push(date);
+                const volume = columns[6];
+                ys.push(volume)
+                console.log(date, volume)
+            });
+            return {xs, ys};
+        }
+
+        chartIt_02();
+        async function chartIt_02() {
+            const data = await getData_02();
+            const ctx = document.getElementById('chart_02');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.xs,
+                    datasets: [{
+                        label: 'CIPLA.NS',
+                        data: data.ys,
+                        fill: false,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                    }]
+                },
+            });
+        }
+        async function getData_02() {
+            const xs = [];
+            const ys= [];
+            const response = await fetch('CIPLA.NS.csv');
+            const data = await response.text();
+
+            const table = data.split('\n').slice(1);
+            table.forEach(row => {
+                const columns = row.split(',');
+                const date = columns[0];
+                xs.push(date);
+                const volume = columns[6];
+                ys.push(volume)
+                console.log(date, volume)
+            });
+            return {xs, ys};
+        }
+
+        chartIt_03();
+        async function chartIt_03() {
+            const data = await getData_03();
+            const ctx = document.getElementById('chart_03');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.xs,
+                    datasets: [{
+                        label: 'EICHERMOT.NS',
+                        data: data.ys,
+                        fill: false,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                    }]
+                },
+            });
+        }
+        async function getData_03() {
+            const xs = [];
+            const ys= [];
+            const response = await fetch('EICHERMOT.NS.csv');
+            const data = await response.text();
+
+            const table = data.split('\n').slice(1);
+            table.forEach(row => {
+                const columns = row.split(',');
+                const date = columns[0];
+                xs.push(date);
+                const volume = columns[6];
+                ys.push(volume)
+                console.log(date, volume)
+            });
+            return {xs, ys};
+        }
+
+        chartIt_04();
+        async function chartIt_04() {
+            const data = await getData_04();
+            const ctx = document.getElementById('chart_04');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.xs,
+                    datasets: [{
+                        label: 'RELIANCE.NS',
+                        data: data.ys,
+                        fill: false,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                    }]
+                },
+            });
+        }
+        async function getData_04() {
+            const xs = [];
+            const ys= [];
+            const response = await fetch('RELIANCE.NS.csv');
+            const data = await response.text();
+
+            const table = data.split('\n').slice(1);
+            table.forEach(row => {
+                const columns = row.split(',');
+                const date = columns[0];
+                xs.push(date);
+                const volume = columns[6];
+                ys.push(volume)
+                console.log(date, volume)
+            });
+            return {xs, ys};
+        }
+
+        chartIt_05();
+        async function chartIt_05() {
+            const data = await getData_05();
+            const ctx = document.getElementById('chart_05');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.xs,
+                    datasets: [{
+                        label: 'TATASTEEL.NS',
+                        data: data.ys,
+                        fill: false,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                    }]
+                },
+            });
+        }
+        async function getData_05() {
+            const xs = [];
+            const ys= [];
+            const response = await fetch('TATASTEEL.NS.csv');
+            const data = await response.text();
+
+            const table = data.split('\n').slice(1);
+            table.forEach(row => {
+                const columns = row.split(',');
+                const date = columns[0];
+                xs.push(date);
+                const volume = columns[6];
+                ys.push(volume)
+                console.log(date, volume)
+            });
+            return {xs, ys};
+        }
+    </script>
+</body>
+
+</html>
